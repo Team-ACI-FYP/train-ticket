@@ -2,7 +2,7 @@
 set -eu
 
 echo
-echo "Please input you repo password of $1"
+echo "Please input your repo password of $1"
 echo
 docker login --username="$1"
 

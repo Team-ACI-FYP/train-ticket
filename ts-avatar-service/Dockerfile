@@ -12,6 +12,7 @@ RUN mkdir -p /app
 ADD . /app/
 WORKDIR /app
 
+RUN pip install --upgrade pip setuptools wheel 
 RUN pip install -r requirements.txt
 
 CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:17001", "app:app"]
