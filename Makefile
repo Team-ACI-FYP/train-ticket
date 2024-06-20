@@ -1,8 +1,8 @@
 # Codewisdom Train-Ticket system
 
-Repo=train-ticket
+Repo=ctr20/train-ticket
 Tag=latest
-Namespace="ctr20"
+Namespace="train-ticket"
 DeployArgs=""
 
 
